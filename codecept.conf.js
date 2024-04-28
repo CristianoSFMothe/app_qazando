@@ -10,7 +10,7 @@ exports.config = {
   helpers: {
     Appium: {
       platform: 'Android',
-      app: '../app_qazando/app/app-release.apk',
+      app: './app/app-release.apk',
       desiredCapabilities: {
         appPackage: 'com.qazandoapp',
         appActivity: 'MainActivity',
